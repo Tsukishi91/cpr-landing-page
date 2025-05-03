@@ -8,10 +8,9 @@ body {
   header {
     background-color: #2a9d8f;
     color: white;
-    padding: 40px 20px;
+    padding: 80px 20px 40px;
     text-align: center;
     position: relative;
-    padding-top: 80px;
 
   }
   .theme-toggle {
@@ -111,6 +110,16 @@ body {
     justify-content: center;
   }
   @media (max-width: 600px) {
+    header {
+      padding-top: 120px;
+    }
+    .theme-toggle {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+    h1 {
+      font-size: 20px;
+    }
     .info {
       flex-direction: column;
       gap: 20px;
