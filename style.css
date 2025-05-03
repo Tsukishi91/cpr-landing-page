@@ -8,15 +8,12 @@ body {
   header {
     background-color: #2a9d8f;
     color: white;
-    padding: 60px 20px 40px;
+    padding: 40px 20px;
     text-align: center;
     position: relative;
-  }
-  .darkMode {
-    display: flex;
-    
-  }
+    padding-top: 80px;
 
+  }
   .theme-toggle {
     position: absolute;
     top: 20px;
@@ -34,7 +31,6 @@ body {
     background-color: #333;
     color: #eee;
   }
-
   .theme-toggle:hover {
   background-color: #ddd;
   }
